@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+/* html {
+  font-family: "Montserrat", sans-serif;
+} */
+.pageHeader {
+    /* display: flex;  */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.menuBar{
+    display: flex;
+    text-align: left;
+}
+.logoName {
+    cursor: pointer;
+    color:#E50914;  
+    margin-left: 20px;
+    float:left;
+}
+
+.menuBar {
+    display: flex; 
+    margin-top: 28px;
+    float:left;
+}
+h3 {
+    padding: 8px;
+}
+
+.linkStyle {
+    color:white;
+    text-decoration: none;
+}
+.linkStyle:hover {
+    color: gray
+}
+.profileIcon {
+    margin-top: 2%;
+}
+.logoProfile {
+    float: right;
+    border-radius: 10%;
+    height: 4em;
+    padding: 0.5em;
+    margin-right: 40px;
+    background-color: #fddadf;
+}
+.helloContainer {
+     width:100%;
+     height:100%;
+     position:relative;
+     background-image:linear-gradient(#221F1F, rgb(107, 103, 103),rgb(88, 84, 84),#221F1F);
+;
+     display: flex;
+}
+.hiContainer {
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.hiContainer Button {
+    background-color:white;
+    color:black;
+    font-weight: bold;
+}
+.hiContainer Button:hover {
+    color:black;
+}
+.hiContainer h1 {
+    color:white;
+}
+.myselfLogo {
+    margin-left: 40%;
+    width:30%;
+    height:20%;
+}
