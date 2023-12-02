@@ -11,7 +11,7 @@
   transition: filter 300ms;
 }
 .logo.react {
-  background-color: rgb(194, 255, 194);
+  background-color: #fddadf;
   border-radius: 5%;
 }
 .logo.react:hover {

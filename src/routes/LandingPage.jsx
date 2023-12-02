@@ -1,4 +1,4 @@
-import profileLogo from "../assets/react.svg";
+import profileLogo from "../assets/user-logo.svg";
 import { Outlet, Link } from "react-router-dom";
 import "./landingpage.css"
 

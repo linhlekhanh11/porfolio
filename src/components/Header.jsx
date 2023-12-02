@@ -20,9 +20,9 @@ export default function Header() {
             </Link>
             </div>
         </div>
-        <div className="profileIcon">
+        {/* <div className="profileIcon">
           <img src={profileLogo} className="logoProfile" />
-        </div>
+        </div> */}
       </div>
     );
 }

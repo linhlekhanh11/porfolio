@@ -2,6 +2,7 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import womenLogo from "../assets/women-in-tech.svg";
 
+
 export default function Demo() {
     const navigate = useNavigate();
     const handleOnClick = () => {
@@ -16,6 +17,7 @@ export default function Demo() {
         </Button>
       </div>
       <img src={womenLogo} className="myselfLogo" />
+        
     </div>
   );
 }

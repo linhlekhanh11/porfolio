@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
 }
-/* html {
+html {
   font-family: "Montserrat", sans-serif;
-} */
+  scroll-behavior: smooth;
+}
 .pageHeader {
-    /* display: flex;  */
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    
+    overflow: hidden;   
+}
+.sidebar {
+    margin-top: 20%;
 }
 .menuBar{
     display: flex;
@@ -52,13 +54,11 @@ h3 {
 .myselfContainer {
      width:100%;
      height:100%;
-     position:relative;
-     background-image:linear-gradient(#221F1F, rgb(107, 103, 103),rgb(88, 84, 84),#221F1F);
-;
+     background-image:linear-gradient(#221F1F, #2f2c2c,#393535,#221F1F);
      display: flex;
 }
 .hiContainer {
-    margin-top: 20%;
+    margin-top: 14%;
     margin-left: 3%;
 }
 .hiContainer Button {
@@ -76,4 +76,50 @@ h3 {
     margin-left: 40%;
     width:30%;
     height:20%;
+}
+.experienceContainer {
+    float: left;
+    overflow-x: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.experienceContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.project{
+    position: relative;
+    display: flex;
+    gap: 3px;
+}
+.arrow {
+    float: left;
+    display: flex;
+    position: relative;
+}
+footer p {
+  color: #ccc;
+}
+.card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  width: 30%;
+  margin: 3px;
+}
+.card:hover {
+    box-shadow: 0 2px 5px #f1efef;
+}
+.card h1 {
+  font-size: 1.2em;
+  margin-block: 2px;
+  color: #221F1F;
+}
+.card p {
+    color: #221F1F;
+}
+
+.title {
+    float:left;
+    margin-left: 3%;
 }
